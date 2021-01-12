@@ -35,7 +35,7 @@ blockquote:after {
 	bottom: 1rem;
 }
 
-.circle_picture{
+img.circle_picture{
 	width: 178px;
     border-radius: 50%;
     height: 182px;
