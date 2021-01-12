@@ -11,7 +11,7 @@ new WOW().init();
 /**== loader js ==*/
 
 $(window).load(function() {
-    $(".bg_load").fadeOut("slow");
+    $(".bg_load").css("display", "none");
 })
 
 /**== Menu js ==**/
@@ -118,7 +118,6 @@ tpj(document).ready(function() {
                     hide_onleave: true,
                     hide_delay: 200,
                     hide_delay_mobile: 1200,
-                    tmp: '<div class="tp-title-wrap"><div class="tp-arr-imgholder"></div></div>',
                     left: {
                         h_align: "left",
                         v_align: "center",
@@ -133,7 +132,7 @@ tpj(document).ready(function() {
                     }
                 },
                 bullets: {
-                    enable: true,
+                    enable: false,
                     hide_onmobile: true,
                     hide_under: 600,
                     style: "metis",
